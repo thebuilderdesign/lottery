@@ -2,8 +2,8 @@ import "./globals.css";
 import ThirdWebProvide from "./thirdwebprovide";
 
 export const metadata = {
-  title: "Shingby Lottery Dapp",
-  description: "Play Lotto with Crypto",
+  title: "BasedLuck Lottery Dapp",
+  description: "",
 };
 
 export default function RootLayout({
