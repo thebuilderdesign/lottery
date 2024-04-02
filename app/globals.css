@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stats {
+  @apply bg-[#265b97] p-3 text-white flex-1 rounded-md border-[#52a3ff] border;
+}
+
+.stats-container {
+  @apply bg-[#265b97] p-2 rounded-lg border-[#52a3ff] border;
+}
+
+.countdown {
+  @apply p-5 text-4xl text-center text-white rounded-lg bg-[#52a3ff] lg:min-w-[150px];
+}
+.countdown-label {
+  @apply pt-4 text-sm text-center text-white uppercase;
+}
+
+.buy-btn {
+  @apply mt-5 w-full bg-gradient-to-br from-blue-500 to-emerald-600 px-10 py-5 rounded-md text-white shadow-xl disabled:from-gray-600 disabled:to-gray-100 disabled:cursor-not-allowed !important;
+}
+
+.win-btn {
+  @apply text-white w-full rounded-[0.75rem] text-center block bg-gradient-to-b from-[#0004ff] to-[#52a3ff] shadow-md p-4 animate-pulse !important;
+}
+
+.admin-btn {
+  @apply bg-[#265b97] block p-2 text-white flex-1 rounded-[0.25rem] border-[2px] border-solid border-[#52a3ff] hover:text-white hover:bg-emerald-500/50 !important;
+}
