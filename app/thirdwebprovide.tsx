@@ -9,7 +9,7 @@ export default function ThirdWebProvide({
   children: React.ReactNode;
 }) {
   return (
-    <ThirdwebProvider activeChain="base-sepolia-testnet">
+    <ThirdwebProvider activeChain="base">
       {children}
       <Toaster />
     </ThirdwebProvider>
